@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(
+    to bottom,
+    lightblue 5%,
+    pink 40%,
+    white 100%
+  );
+  height: 100vh;
+}
+input {
+  text-align: center;
+  border-radius: 30px;
+  height: 50px;
+  width: 300px;
+  margin: 20px 10px;
+  font-size: large;
+  background-color: rgb(194, 218, 226);
+  border: solid 3px black;
+  box-shadow: 5px 5px 5px black;
+}
+label {
+  font-size: x-large;
+  font-weight: 700;
+  
+  text-shadow: 3px 3px 4px rgb(214, 20, 20);
+}
+h1 {
+  letter-spacing: 10px;
+  color: rgb(23, 2, 2);
+  text-shadow: 5px 2px 2px rgb(176, 241, 12);
+}
+h1:hover {
+  color: rgb(205, 50, 91);
+}
+.feedStoreDiv {
+  width: 80%;
+  display: grid;
+    grid-template-columns: auto auto;
+  margin:  auto;
+   background-color: hwb(312 66% 3%);
+  border-radius: 10px;
+ 
+}
+.feedStoreData {
+  padding:20px;
+  width: 500px;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(250, 0, 42);
+  border-radius: 18px;
+}
